@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  chalk:
+    specifier: ^5.2.0
+    version: 5.2.0
   lodash:
     specifier: ^4.17.21
     version: 4.17.21
@@ -19,8 +22,19 @@ dependencies:
   random-colorful:
     specifier: ^1.0.4
     version: 1.0.4
+  random-hex-color-generator:
+    specifier: ^1.0.12
+    version: 1.0.12
+  randomcolor:
+    specifier: ^0.6.2
+    version: 0.6.2
 
 packages:
+
+  /chalk@5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -53,4 +67,12 @@ packages:
 
   /random-colorful@1.0.4:
     resolution: {integrity: sha512-B7Kij1XBS56sRsklkxorKIVrQ1YvUd5R8h7nhVGUyEzvmWNQOQ1A0faIVedXQs2igXuJ6eu0CjY/MVTs3cT7Tw==}
+    dev: false
+
+  /random-hex-color-generator@1.0.12:
+    resolution: {integrity: sha512-4SwGx7eK57okyQT0XBCawKaxU562aDdnhU2DVZF0ZdHCEBaOfw50Ivs3w4J5MiOnkX4HU4UZoPab6jYIGLAmbA==}
+    dev: false
+
+  /randomcolor@0.6.2:
+    resolution: {integrity: sha512-Mn6TbyYpFgwFuQ8KJKqf3bqqY9O1y37/0jgSK/61PUxV4QfIMv0+K2ioq8DfOjkBslcjwSzRfIDEXfzA9aCx7A==}
     dev: false

@@ -1,46 +1,21 @@
+import chalk from 'chalk';
+import ColorGenerator from 'random-color-array-generator';
 import randomColor from 'randomcolor';
 
-const color = randomColor();
+const hue = process.argv[2];
+const luminosity = process.argv[3];
 
-console.log(color.randomColor);
-/* let color = randomColor({ hue: 'red', count: 18 });
-console.log(color.randomColor);
-color = randomColor; */
-console.log('#########################');
-console.log('#########################');
-console.log('#########################');
-console.log('#########################');
-console.log(
-  '#######' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    '#######',
-);
-console.log('#######' + ' ' + ' ' + color + ' ' + ' ' + '#######');
-console.log(
-  '#######' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    ' ' +
-    '#######',
-);
-console.log('#########################');
-console.log('#########################');
-console.log('#########################');
+const color = randomColor({
+  luminosity: luminosity,
+  hue: hue,
+});
+console.log(color);
+
+console.log(chalk.hex(color).bold('#########################'));
+console.log(chalk.hex(color).bold('#########################'));
+console.log(chalk.hex(color).bold('#########################'));
+console.log(chalk.hex(color).bold('#######           #######'));
+console.log(chalk.hex(color).bold(`#######  ${color}  #######`));
+console.log(chalk.hex(color).bold('#######           #######'));
+console.log(chalk.hex(color).bold('#########################'));
+console.log(chalk.hex(color).bold('#########################'));
