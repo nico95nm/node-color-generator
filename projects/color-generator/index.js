@@ -1,11 +1,11 @@
 import randomColor from 'randomcolor';
 
-//let hugeColor = randomColor.random(); //
+const color = randomColor();
 
-//console.log(hugeColor.color);//
-let hugeColor = randomColor({ hue: 'red', count: 18 });
-console.log(hugeColor.randomColor);
-hugeColor = randomColor.count;
+console.log(color.randomColor);
+/* let color = randomColor({ hue: 'red', count: 18 });
+console.log(color.randomColor);
+color = randomColor; */
 console.log('#########################');
 console.log('#########################');
 console.log('#########################');
@@ -25,7 +25,7 @@ console.log(
     ' ' +
     '#######',
 );
-console.log('#######' + ' ' + ' ' + randomColor + ' ' + ' ' + '#######');
+console.log('#######' + ' ' + ' ' + color + ' ' + ' ' + '#######');
 console.log(
   '#######' +
     ' ' +
