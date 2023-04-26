@@ -1,5 +1,4 @@
 import chalk from 'chalk';
-import ColorGenerator from 'random-color-array-generator';
 import randomColor from 'randomcolor';
 
 const hue = process.argv[2];

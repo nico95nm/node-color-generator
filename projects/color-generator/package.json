@@ -11,14 +11,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@upleveled/preflight": "^2.1.11",
     "chalk": "^5.2.0",
+    "global": "^4.4.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "node": "^19.8.1",
+    "preflight": "^0.2.0",
     "random-color-array-generator": "^1.0.3",
     "random-color-rgb": "^1.1.1",
     "random-colorful": "^1.0.4",
     "random-hex-color-generator": "^1.0.12",
-    "randomcolor": "^0.6.2"
+    "randomcolor": "^0.6.2",
+    "sass": "^1.62.1",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26",
+    "eslint-config-upleveled": "^4.1.8",
+    "typescript": "^5.0.4"
   }
 }
