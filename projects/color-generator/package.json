@@ -27,6 +27,9 @@
     "sharp": "^0.32.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^18.16.1",
+    "@types/randomcolor": "^0.5.7",
     "@types/styled-components": "^5.1.26",
     "eslint-config-upleveled": "^4.1.8",
     "typescript": "^5.0.4"
