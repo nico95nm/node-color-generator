@@ -1,0 +1,23 @@
+{
+  "name": "color-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "node": "^19.8.1",
+    "random-color-array-generator": "^1.0.3",
+    "random-color-rgb": "^1.1.1",
+    "random-colorful": "^1.0.4",
+    "random-hex-color-generator": "^1.0.12",
+    "randomcolor": "^0.6.2"
+  }
+}
