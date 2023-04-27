@@ -1,0 +1,27 @@
+{
+  "name": "color-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "randomcolor": "^0.6.2",
+    "sass": "^1.62.1",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^18.16.1",
+    "@types/randomcolor": "^0.5.7",
+    "@types/styled-components": "^5.1.26",
+    "eslint-config-upleveled": "^4.1.8",
+    "typescript": "^5.0.4"
+  }
+}
