@@ -16,3 +16,5 @@ console.log(chalk.hex(color).bold(`#######  ${color}  #######`));
 console.log(chalk.hex(color).bold('#######           #######'));
 console.log(chalk.hex(color).bold('#########################'));
 console.log(chalk.hex(color).bold('#########################'));
+
+<p>Hello world</p>;
